@@ -1,7 +1,7 @@
 from multiprocessing import Pipe
 from threading import Thread
 
-from sender import Sender
+from ._sender import Sender
 
 
 class Communication:
