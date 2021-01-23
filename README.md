@@ -29,7 +29,7 @@ from pmpi import Communication
 comm = Communication()
 
 # add an id and function
-comm.register("my_sick_function", loadAll)
+comm.register("my_sick_function", func_name)
 
 # get the sender
 sender = comm.sender()
